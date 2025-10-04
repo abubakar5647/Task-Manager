@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CreateTaskForm from "../../components/CreateTaskForm";
-import { replace, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 interface Task {
